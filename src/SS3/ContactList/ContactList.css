@@ -1,0 +1,57 @@
+.ContactInteract {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.ContactBtn {
+    padding: 8px 12px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.ContactBtn:hover,
+.ContactBtn:focus {
+    background-color: rgb(58, 86, 138);
+    border: 1px solid rgb(58, 86, 138);
+    color: rgb(178, 199, 238)
+}
+
+.Feedback {
+    position: relative;
+    margin-bottom: 24px;
+    padding: 16px;
+}
+
+.openModal {
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.ModalChatbox {
+    display: flex;
+}
+
+.ModalChatboxDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: -webkit-center;
+    inset: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgb(184, 155, 184);
+}

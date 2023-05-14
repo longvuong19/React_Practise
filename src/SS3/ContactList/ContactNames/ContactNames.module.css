@@ -1,0 +1,10 @@
+.Contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.Contacts img {
+    width: 20%;
+    height: auto;
+    margin-right: 8px;
+}
